@@ -3,7 +3,7 @@
 	width: 100%;
 	margin: 0 0 30px;
 	overflow: auto;
-	color: white;
+	color: aqua;
 	background: blue;
 	border-bottom: 2px solid black;
 }
@@ -28,12 +28,36 @@ nav a {
 	line-height: 18px;
 	color: white;
 	text-decoration: none;
-	border-left: 1px solid gray;
+	border-left: 1px solid black;
 }
 
-nav a:first-child {
+nav a: first-child {
 	border-left: 0 none;
 }
+
+.sidebar{
+	float: right;
+	width: 100%;
+	max-width:270px;
+	padding: 30px;
+	margin-bottom: 20px;
+	background: #fff
+	border: 1px solid #ddd;
+}
+
+h3, .sidebar h2 {
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	border-bottom: 2px solid #eee;
+}
+
+.social{  
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+ }
 
 #main-container{
 	padding-top: 130px;
@@ -45,7 +69,7 @@ nav a:first-child {
 	max-width: 660px;
 	padding: 30px;
 	margin: 0 0 40px;
-	border: 1px solid;
+	border: 1px solid #fff;
 }
 
 .auth-image {
@@ -53,4 +77,21 @@ nav a:first-child {
 	width: 200px;
 	margin-top: 300;
 	margin-right:250px;
+}
+
+.work{
+	position: relative;
+	float: left;
+	width: 274px;
+	margin: 20px 0 25px;
+	overflow: auto;
+}
+footer{
+	padding: 30px;
+	clear: both;
+	font-size: 12px;
+	color: yellow;
+	text-align: center;
+	background: black;
+	border-top: 8px solid orange; 
 }
